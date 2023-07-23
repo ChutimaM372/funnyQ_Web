@@ -43,7 +43,7 @@ class _HomePageState extends State<HomePage> {
     'ไหล่โดนจอ หล่อโดนใจ',
   ];
 
-  static const List _colorList = [
+  static const List<MaterialColor> _colorList = [
     Colors.blueGrey,
     Colors.indigo,
     Colors.pink,
