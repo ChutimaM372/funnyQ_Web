@@ -17,7 +17,7 @@ class FunnyQuotesApp extends StatelessWidget {
     return MaterialApp(
       title: 'Funny Quotes',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.lightGreen),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.yellowAccent),
         useMaterial3: true,
       ),
       home: const SplashPage(),

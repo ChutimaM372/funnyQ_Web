@@ -10,7 +10,7 @@ class SplashPage extends StatelessWidget {
       body: Container(
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/images/bg.jpg'),
+            image: AssetImage('assets/images/frank.jpg'),
             fit: BoxFit.cover,
           ),
         ),
@@ -21,8 +21,8 @@ class SplashPage extends StatelessWidget {
               Text(
                 'Funny Quotes',
                 textAlign: TextAlign.center,
-                style: GoogleFonts.sairaStencilOne(
-                  color: Colors.indigoAccent,
+                style: GoogleFonts.rockSalt(
+                  color: Colors.indigo,
                   fontSize: 70,
                   fontStyle: FontStyle.italic,
                   fontWeight: FontWeight.bold,
@@ -33,7 +33,7 @@ class SplashPage extends StatelessWidget {
                 child: Text(
                   'Start',
                   style: GoogleFonts.sairaStencilOne(
-                    color: Colors.deepOrange,
+                    color: Colors.indigo,
                     fontSize: 40,
                     fontStyle: FontStyle.italic,
                     fontWeight: FontWeight.bold,

@@ -82,7 +82,7 @@ class _HomePageState extends State<HomePage> {
       ),
       body: Center(
         child: Padding(
-          padding: const EdgeInsets.all(10),
+          padding: const EdgeInsets.all(32.0),
           child: Text(
             _quote,
             style:  TextStyle(
